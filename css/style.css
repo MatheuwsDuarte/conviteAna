@@ -212,7 +212,49 @@ body {
 
 /* Responsividade para celular */
 @media (max-width: 600px) {
-    .title { font-size: 2.5em; }
-    .btn { width: 100%; }
-    .polaroid img { max-width: 220px; }
+
+    .container {
+        padding: 25px 15px; /* Diminui as margens internas da caixa principal */
+        width: 95%; /* Aproveita mais a largura da tela */
+        margin: 20px 0;
+    }
+    
+    .title { 
+        font-size: 2.2em; 
+    }
+    
+    .buttons {
+        flex-direction: column; /* Coloca um botão embaixo do outro para caber o textão */
+        gap: 12px;
+    }
+
+    .btn { 
+        width: 100%; 
+        padding: 15px 10px;
+        font-size: 1.1em; /* Ajusta a fonte do botão */
+    }
+    
+    .polaroid img { 
+        max-width: 200px; 
+    }
+
+    /* Ajustes específicos da seção de detalhes para não ficar espremida */
+    .details-list {
+        padding: 15px; /* Menos espaço sobrando nas bordas internas */
+        max-width: 100%;
+        margin: 15px 0;
+    }
+
+    .details-title {
+        font-size: 1.5em; /* Diminui o título de confirmação para não quebrar */
+    }
+
+    .details-list li {
+        font-size: 0.95em; /* Ajuste sutil na fonte da lista */
+        margin-bottom: 12px;
+    }
+
+    .signature {
+        font-size: 2em;
+    }
 }
