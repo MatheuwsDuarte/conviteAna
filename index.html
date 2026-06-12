@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Ana Clara, minha cacheada ❤️</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fontes românticas e super bregas -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Áudio de fundo (você deve colocar o arquivo musica.mp3 na pasta assets) -->
+    <audio id="bg-music" loop>
+        <source src="assets/musica.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <!-- Container dos corações caindo -->
+    <div class="falling-hearts" id="hearts-container"></div>
+
+    <div class="container" id="main-container">
+        <!-- Foto Polaroid -->
+        <div class="polaroid">
+            <img src="assets/foto.png" alt="Nós dois ❤️" id="couple-photo">
+            <div class="caption">Para a protagonista da minha comédia romântica</div>
+        </div>
+
+        <h1 class="title">Ana Clara, minha cacheada...</h1>
+        
+        <!-- Referência de filme 1-->
+        <p class="quote">"Desde o momento em que te conheci, não houve um dia sequer em que eu não tenha pensado em você." (Star Wars: O Ataque dos Clones) <br> Te quero pra vida! </p>
+
+        <div class="invitation-text">
+            <p>A distância é só um mero detalhe perto da vida que vamos passar juntos.</p>
+            <h2>Você aceita um web encontro super romantico com seu cacheado, nesse fatídico dia dos namorados?</h2>
+        </div>
+
+        <div class="buttons">
+            <button class="btn yes-btn" onclick="confirmDate()">Sim, eu aceito! EU TE AMO IGUAL UMA DOIDA</button>
+            <button class="btn yes-btn-2" onclick="confirmDate()">Com certeza! POR FAVOR QUERO VOCÊ LINDO</button>
+        </div>
+
+        <!-- Seção de detalhes revelada após o clique -->
+        <div id="details-section" class="hidden">
+            <h2 class="details-title">💖 Date CONFIRMADO, VAMOOOOOO! 💖</h2>
+            <!-- Referência de filme 2: Um Amor para Recordar -->
+            <p class="quote-small">"O melhor tipo de amor é aquele que acorda a alma e nos faz querer mais, que coloca um fogo em nossos corações e traz paz às nossas mentes."</p>
+            
+            <ul class="details-list">
+                <li><strong>📅 Data:</strong> 12 de Junho (Dia dos namorados)</li>
+                <li><strong>⏰ Hora:</strong> 21 horas no horário de Londrina e Jaraguá do CU (Vou estar te esperando com um sorrisão no meio da minha cara) </li>
+                <li><strong>📍 Local:</strong> Ligação de video do WhatsApp, <i>foi triste digitar isso</i> (Use e abuse do seu melhor pijama, você é um espetaculo com tudo)</li>
+                <li><strong>🍔 Comida:</strong> iFood Surpresa! E sim, você vai ter que escolher algo para comer dessa vez (Regra: eu peço a sua janta, e você pede a minha.)</li>
+                <li><strong>🍿 Diversão:</strong> Web Cinema (O filme ainda é surpresa, o que não é surpresa: minha companhia incrivel e risadinhas)</li>
+            </ul>
+            
+            <p class="signature">Com todo amor do mundo,<br>Matheus, seu homem❤️</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

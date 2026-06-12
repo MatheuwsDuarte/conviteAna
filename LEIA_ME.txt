@@ -1,0 +1,9 @@
+COMO USAR E PUBLICAR SUA LANDING PAGE:
+
+1. Coloque a foto que você me enviou na pasta 'assets' e renomeie o arquivo EXATAMENTE para: foto.png
+2. Escolha sua música romântica em formato mp3, coloque na pasta 'assets' e renomeie EXATAMENTE para: musica.mp3
+3. Dê dois cliques no 'index.html' para testar no seu navegador.
+4. Para subir no Github Pages: 
+   - Crie um repositório no Github
+   - Faça o upload de todas as pastas e arquivos (index.html, css/, js/, assets/)
+   - Vá em Settings > Pages, selecione a branch 'main' e clique em Salvar!
